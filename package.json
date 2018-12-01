@@ -1,0 +1,17 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Simple chat app using sockets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8",
+    "path": "^0.12.7",
+    "socket.io": "^2.1.1"
+  }
+}
